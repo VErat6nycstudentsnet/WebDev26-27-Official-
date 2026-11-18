@@ -1,2 +1,34 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
+ *{
+   font-family:Arial;
+   font-weight:normal;
+ }
+   nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+  transition:0.5s
+}
+nav a:hover{
+    background-color:green;
+    color:white;
+    transition:0.5s;
+}
+#banner{
+  background-color:blue;
+  color:white;
+  padding:20px;
+}
+#body{
+  padding:50px;
+}
+#links{
+  padding:50px;
+}
+
+#footer{
+  background-color:green;
+  color:white;
+  padding:20px;
+}
