@@ -2,17 +2,20 @@
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
  *{
    font-family:Arial;
-   font-weight:normal;
  }
-   nav a{
-  flex:1;
-  text-align:center;
-  padding:10px;
-  transition:0.5s
+ .container{
+  display:flex;
+ }
+   #banner div{
+    flex:1;
 }
-nav a:hover{
+
+#topnav a{
     background-color:green;
     color:white;
+    font-size:20px;
+    flex:1;
+
     transition:0.5s;
 }
 #banner{
@@ -25,16 +28,29 @@ nav a:hover{
   align-items:left;
 }
 #body{
-  flex:1;
-  padding:50px;
+  height:400 px;
 }
 #links{
+  flex-direction:column;
+  flex:1;
+  border:solid 1px black;
+}
+#links a{
   padding:50px;
   color:black;
+  text-decoration:none;
+  flex:1;
 }
 
+#main, #sample{
+
+}
 #footer{
   background-color:green;
   color:white;
   padding:20px;
+}
+#footer p{
+  color:white;
+
 }
