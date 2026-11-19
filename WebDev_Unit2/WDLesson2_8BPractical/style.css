@@ -3,10 +3,12 @@
  *{
    font-family:Arial;
  }
+
  .container{
   display:flex;
  }
-   #banner div{
+
+ #banner div{
     flex:1;
 }
 
@@ -15,17 +17,12 @@
     color:white;
     font-size:20px;
     flex:1;
-
     transition:0.5s;
 }
 #banner{
-  background-color:blue;
   color:white;
   padding:20px;
   text-align:left;
-  flex-direction:column;
-  flex-wrap:5;
-  align-items:left;
 }
 #body{
   height:400 px;
@@ -35,6 +32,7 @@
   flex:1;
   border:solid 1px black;
 }
+
 #links a{
   padding:50px;
   color:black;
@@ -42,9 +40,6 @@
   flex:1;
 }
 
-#main, #sample{
-
-}
 #footer{
   background-color:green;
   color:white;
